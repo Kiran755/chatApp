@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Credentials {
+    min-height: 23rem;
+    max-width: 25rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    color: white;
+    background-color: #2e024975;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Credentials>form {
+    margin-top: 5px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.269);
+    background-color: #2e02499f;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.Credentials h1 {
+    font-weight: 300;
+}
+
+.Credentials>form>input {
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+.Credentials>form>input[type="submit"] {
+    transition: color, background-color 200ms ease-in;
+}
+
+.Credentials>form>input[type="submit"]:hover {
+    background-color: #fff;
+    color: #2e0249e7;
+}
+
+::placeholder {
+    color: #6A67CE;
+}
+
+input:focus {
+    border: 1px solid red;
+}
+
+.user {
+    width: 100%;
+    margin: 20px;
+    max-width: 340px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    color: white;
+    background-color: #2e02499f;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.user>h4 {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.user>h4>button {
+    margin-left: 3px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    transition: color, background-color 300ms ease-in-out;
+}
+
+.user>h4>button:hover {
+    background-color: #fff;
+    color: #2e0249;
+}
